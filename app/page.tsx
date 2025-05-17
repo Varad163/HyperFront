@@ -7,6 +7,7 @@ import Fontpage from "@/components/font";
 import CustomCursor from "@/components/CustomCursor";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import Caranime from "@/components/caranime";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
    <div>
@@ -19,6 +20,8 @@ export default function Home() {
     <TestimonialsSection />
     <Fontpage />
     <Caranime />
+   
+    <Footer />
    </div>
   );
 }
