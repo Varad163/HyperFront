@@ -1,22 +1,15 @@
-import Navbar from "@/components/navbar";
 
+import BackgroundVideo from "./BackgroundVideo";
 
-    export default function Home() {
-        return (
-            <main className="flex min-h-screen flex-col items-center justify-center p-4">
-                <h1 className="text-3xl font-bold mb-4">Welcome to Pokémon World</h1>
-                <video
-                    autoPlay
-                    muted
-                    loop
-                    playsInline
-                    className="w-full max-w-2xl rounded shadow-lg"
-                >
-                    <source src="/videos/pokemon-intro.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-            </main>
-        );
-    }
-  
-    
+export default function HomeComponent() {
+    return (
+        <main className="relative min-h-screen flex flex-col items-center justify-center text-white z-10">
+            <BackgroundVideo />
+            <div className="z-10 text-center">
+                <h1 className="text-4xl font-bold drop-shadow-xl">
+                    Welcome to Pokémon World
+                </h1>
+            </div>
+        </main>
+    );
+}
