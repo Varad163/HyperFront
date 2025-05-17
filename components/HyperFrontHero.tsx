@@ -88,7 +88,7 @@ export default function HyperFrontHero() {
                     the possibilities ahead.
                 </p>
                 <p>
-                    <strong>BOND</strong> is the global brand consultancy for you.
+                    <strong>HyperFront</strong> is the global brand consultancy for you.
                 </p>
                 <p>
                     We use strategy, story and design to capture the full value of your

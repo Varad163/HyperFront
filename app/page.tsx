@@ -5,6 +5,8 @@ import BackgroundVideo from "@/components/BackgroundVideo";
 import HyperFrontHero from "@/components/HyperFrontHero";
 import Fontpage from "@/components/font";
 import CustomCursor from "@/components/CustomCursor";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import Caranime from "@/components/caranime";
 export default function Home() {
   return (
    <div>
@@ -14,7 +16,9 @@ export default function Home() {
    <BackgroundVideo />
    <HyperFrontHero />
     
+    <TestimonialsSection />
     <Fontpage />
+    <Caranime />
    </div>
   );
 }
