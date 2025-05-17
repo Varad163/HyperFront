@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 import HomeComponent from "@/components/home";
 import BackgroundVideo from "@/components/BackgroundVideo";
 import HyperFrontHero from "@/components/HyperFrontHero";
-
+import Fontpage from "@/components/font";
 import CustomCursor from "@/components/CustomCursor";
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
    <BackgroundVideo />
    <HyperFrontHero />
     
-    
+    <Fontpage />
    </div>
   );
 }
