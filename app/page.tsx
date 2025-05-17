@@ -8,6 +8,7 @@ import CustomCursor from "@/components/CustomCursor";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import Caranime from "@/components/caranime";
 import Footer from "@/components/footer";
+import Endpage from "@/components/endpage";
 export default function Home() {
   return (
    <div>
@@ -17,11 +18,11 @@ export default function Home() {
    <BackgroundVideo />
    <HyperFrontHero />
     
-    <TestimonialsSection />
     <Fontpage />
     <Caranime />
    
     <Footer />
-   </div>
+    <TestimonialsSection />
+/   </div>
   );
 }
