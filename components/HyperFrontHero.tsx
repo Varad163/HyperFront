@@ -12,7 +12,7 @@ export default function HyperFrontHero() {
     const paragraphRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        // Animate word
+       
         if (wordRef.current) {
             gsap.fromTo(
                 wordRef.current,
@@ -34,7 +34,7 @@ export default function HyperFrontHero() {
             );
         }
 
-        // Animate tagline
+       
         if (taglineRef.current) {
             gsap.fromTo(
                 taglineRef.current,
