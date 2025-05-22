@@ -14,9 +14,7 @@ export default function CustomCursor() {
         const moveCursor = (e: MouseEvent) => {
             mouseX.set(e.clientX);
             mouseY.set(e.clientY);
-        };
-
-        window.addEventListener("mousemove", moveCursor);
+        }; window.addEventListener("mousemove", moveCursor);
         return () => {
             window.removeEventListener("mousemove", moveCursor);
         };
@@ -30,6 +28,8 @@ export default function CustomCursor() {
                 y: springY,
                 translateX: "-50%",
                 translateY: "-50%",
+
+
             }}
         />
     );
